@@ -8,7 +8,7 @@ package muhammadamin2110010026;
  *
  * @author ACER
  */
-public class Pelanggan extends Kategori {
+public class Pelanggan extends Kategori{
     private String id, email, pass, namaplg, alamatplg, kotaplg, teleponplg;
     
     public Pelanggan(){}

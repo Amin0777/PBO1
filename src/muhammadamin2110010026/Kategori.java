@@ -4,31 +4,28 @@
  */
 package muhammadamin2110010026;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ACER
  */
 public class Kategori {
-    private int pilKategori;
+    private ArrayList<String> namaKategori;
     
-    public Kategori(){}
-    
-     public Kategori(String value){
-        System.out.print(value);
-    }
-     
-     public void setPilKategori(int kategori){
-        if(kategori == 1){
-            System.out.print("ACER");
-            pilKategori = 3500000;
-        }else if(kategori == 2){
-            System.out.print("ASUS");
-            pilKategori = 4000000;
+    public Kategori(){
+        namaKategori = new ArrayList<>();
+    }    
+     public void addNamaKategori(String namakategori){
+        if(namakategori.equals("Monitor")){
+        this.namaKategori.add("Armageddon");
+        this.namaKategori.add("Zowie");
+        this.namaKategori.add("Benq");
         }else{
-            System.out.println("PILIHAN TIDAK ADA");
-        }
-    }
-    public int getPilKategori(){
-        return this.pilKategori;
+          this.namaKategori.add("Pilihan Tidak Ada");
+       }
+     }
+    public ArrayList<String> getNamaKategori(){
+        return this.namaKategori;
     }
 }
