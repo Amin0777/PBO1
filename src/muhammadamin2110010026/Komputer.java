@@ -5,6 +5,7 @@
 package muhammadamin2110010026;
 
 import java.util.ArrayList;
+import forms.formUtama;
 
 /**
  *
@@ -57,6 +58,7 @@ public class Komputer {
         System.out.println(String.valueOf(nmbarang.size()));
         System.out.println(nmbarang.get(3));
         
+        new formUtama().setVisible(true);
     }
     
     
