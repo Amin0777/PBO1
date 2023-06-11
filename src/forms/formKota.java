@@ -130,9 +130,9 @@ public class formKota extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         int i = Integer.valueOf(txtindexkota.getText());
-        String pesan = "Id "+kota.getDataidkota().get(i)+
-                        "\n Nama Kota "+kota.getDatanmkota().get(i)+ 
-                        "\n Ongkir "+kota.getDataOngkir().get(i);
+        String pesan = "Id : "+kota.getDataidkota().get(i)+
+                        "\nNama Kota : "+kota.getDatanmkota().get(i)+ 
+                        "\nOngkir : "+kota.getDataOngkir().get(i);
         JOptionPane.showMessageDialog(this, pesan);
     }//GEN-LAST:event_jButton2ActionPerformed
 
