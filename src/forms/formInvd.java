@@ -185,9 +185,9 @@ public class formInvd extends javax.swing.JFrame {
         invoiced.addNamabrg(txtnmbrg.getText());
         invoiced.addSatuan(txtsatuan.getText());
         invoiced.addHrginvd(txtharga.getText());
-        invoiced.addQty(txtqty.getText());
+        invoiced.addQty(Integer.valueOf(txtqty.getText()));
         invoiced.addJumlah(txtjumlah.getText());
-        invoiced.addBeratinvd(txtberat.getText());
+        invoiced.addBeratinvd(Integer.valueOf(txtberat.getText()));
         invoiced.addJmlberat(txtjmlhbrt.getText());
     }//GEN-LAST:event_tambahActionPerformed
 

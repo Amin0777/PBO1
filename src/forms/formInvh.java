@@ -232,7 +232,7 @@ public class formInvh extends javax.swing.JFrame {
         // TODO add your handling code here:
         invoiceh.addIdInvoice(txtidinv.getText());
         invoiceh.addTglinvh(txttglinv.getText());
-        invoiceh.addJumlah(txtjmlhinv.getText());
+        invoiceh.addJumlah(Integer.valueOf(txtjmlhinv.getText()));
         invoiceh.addtOngkirinvh(txtongkirinv.getText());
         invoiceh.addTotal(txttotalinv.getText());
         invoiceh.addStatinv(txtstatinv.getText());
@@ -241,7 +241,7 @@ public class formInvh extends javax.swing.JFrame {
         invoiceh.addKodeposInvh(txtkodeinv.getText());
         invoiceh.addTlpInvh(txttlpinv.getText());
         invoiceh.addTarif(txttarifinv.getText());
-        invoiceh.addJmlhberat(txtjmlhberat.getText());
+        invoiceh.addJmlhberat(Integer.valueOf(txtjmlhberat.getText()));
         invoiceh.addNmpenerima(txtnmpenerima.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -36,13 +36,17 @@
                           <Component id="jButton4" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="jButton3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton6" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
@@ -65,6 +69,7 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="133" max="32767" attributes="0"/>
           </Group>
@@ -115,6 +120,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Form Barang"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

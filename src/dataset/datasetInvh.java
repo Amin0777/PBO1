@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class datasetInvh {
     private ArrayList<String> idinvoice;
     private ArrayList<String> tglinvh;
-    private ArrayList<String> jumlah; 
+    private ArrayList<Integer> jumlah; 
     private ArrayList<String> ongkirinvh; 
     private ArrayList<String> total; 
     private ArrayList<String> statinv; 
@@ -22,7 +22,7 @@ public class datasetInvh {
     private ArrayList<String> kodeposinvh; 
     private ArrayList<String> tlpinvh; 
     private ArrayList<String> tarif; 
-    private ArrayList<String> jmlhberat; 
+    private ArrayList<Integer> jmlhberat; 
     private ArrayList<String> nmpenerima;
    
     public datasetInvh(){
@@ -55,10 +55,10 @@ public class datasetInvh {
         return this.tglinvh;
     }
     
-    public void addJumlah(String value){
+    public void addJumlah(int value){
         this.jumlah.add(value);
      }
-    public ArrayList<String> getDataJumlah(){
+    public ArrayList<Integer> getDataJumlah(){
         return this.jumlah;
     }
     
@@ -125,11 +125,11 @@ public class datasetInvh {
         return this.tarif;
     }
     
-    public void addJmlhberat(String value){
+    public void addJmlhberat(int value){
         this.jmlhberat.add(value);
     }
     
-    public  ArrayList<String> getDataJmlhberat(){
+    public  ArrayList<Integer> getDataJmlhberat(){
         return this.jmlhberat;
     }
     

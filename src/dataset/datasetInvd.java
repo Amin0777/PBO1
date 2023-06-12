@@ -15,9 +15,9 @@ public class datasetInvd {
    private ArrayList<String> namabrg; 
    private ArrayList<String> satuan; 
    private ArrayList<String> hrginvd; 
-   private ArrayList<String> qty;
+   private ArrayList<Integer> qty;
    private ArrayList<String> jmlh;
-   private ArrayList<String> beratinvd;
+   private ArrayList<Integer> beratinvd;
    private ArrayList<String> jmlberat;
    
     public datasetInvd(){
@@ -63,11 +63,11 @@ public class datasetInvd {
         return this.hrginvd;
     }
     
-    public void addQty(String value){
+    public void addQty(int value){
         this.qty.add(value);
     }
     
-    public ArrayList<String> getDataQty(){
+    public ArrayList<Integer> getDataQty(){
         return this.qty;
     }
     
@@ -79,11 +79,11 @@ public class datasetInvd {
         return this.jmlh;
     }
     
-    public void addBeratinvd(String value){
+    public void addBeratinvd(int value){
         this.beratinvd.add(value);
     }
     
-    public ArrayList<String> getDataBeratinvd(){
+    public ArrayList<Integer> getDataBeratinvd(){
         return this.beratinvd;
     }
     

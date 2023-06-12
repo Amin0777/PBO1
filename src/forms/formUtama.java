@@ -33,6 +33,7 @@ public class formUtama extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -73,6 +74,13 @@ public class formUtama extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setText("Form Barang");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -88,12 +96,15 @@ public class formUtama extends javax.swing.JFrame {
                             .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jButton2)
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton3))
-                            .addComponent(jButton5))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton5)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
                 .addContainerGap(23, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -109,7 +120,8 @@ public class formUtama extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton4)
-                    .addComponent(jButton5))
+                    .addComponent(jButton5)
+                    .addComponent(jButton6))
                 .addContainerGap(133, Short.MAX_VALUE))
         );
 
@@ -140,6 +152,11 @@ public class formUtama extends javax.swing.JFrame {
         // TODO add your handling code here:
         new formInvd().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        new formBarang().setVisible(true);
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -182,6 +199,7 @@ public class formUtama extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
