@@ -114,4 +114,18 @@ public class datasetBarang {
     public ArrayList<Integer> getDataStok(){
         return this.stok;
     }
+    public void TambahBarang(String idbrg, String nmbrg, String satuan,
+            String hrg, String ktrg, int berat, int dilihat, int dibeli, String katakunci, int stok){
+        addIdbarang(idbrg);
+        addNmbrg(nmbrg);
+        addSatuan(satuan);
+        addKtrg(ktrg);
+        addBerat(berat);
+        addDilihat(dilihat);
+        addBerat(berat);
+        addDilihat(dilihat);
+        addDibeli(dibeli);
+        addKatakunci(katakunci);
+        addStok(stok);
+    }
 }

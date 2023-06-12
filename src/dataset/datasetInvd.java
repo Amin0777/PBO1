@@ -94,4 +94,16 @@ public class datasetInvd {
     public ArrayList<String> getDataJmlberat(){
         return this.jmlberat;
     } 
+    
+    public void TambahInvd(String iddetail, String namabrg, String satuan,
+            String hrginvd, int qty, String jmlh, int beratinvd, String jmlberat){
+        addIddetail(iddetail);
+        addNamabrg(namabrg);
+        addSatuan(satuan);
+        addHrginvd(hrginvd);
+        addQty(qty);
+        addJumlah(jmlh);
+        addBeratinvd(beratinvd);
+        addJmlberat(jmlberat);
+    }
 }
